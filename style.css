@@ -44,7 +44,7 @@ ul,ol,li{
 }
 
 .nav{
-    background-color: skyblue;
+    background-color: #f9c7c7;
 }
 
 .top-nav-item{
@@ -52,12 +52,44 @@ ul,ol,li{
 }
 
 /* profile */
-.profile-img{
-    width: auto;
-    height: 200px;
+.profile{
+    background-image: url(./assets/back-img-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 70%;
+    height: 100vh;
+    text-align: center;
 }
 
+.profile-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.me{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: palevioletred solid 2px;
+}
+
+.profile h1{
+    margin: 20px 0;
+}
+
+.profile p{
+    margin-bottom: 20px;
+}
+
+.profile-button{
+    border: none;
+    background-color: pink;
+    border-radius: 5px;
+}
 /* 768px 이상 (Desktop) */
 @media screen and (min-width: 768px) {
     /* nav */
@@ -76,5 +108,10 @@ ul,ol,li{
     .right{
         display: flex;
         justify-content: flex-end;
+    }
+
+    /* profile */
+    .profile{
+        height: auto;
     }
 }
