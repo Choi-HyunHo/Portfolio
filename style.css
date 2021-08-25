@@ -134,11 +134,11 @@ ul,ol,li{
     text-align: center;
 }
 
-.introduce h1{
-    margin: 20px 0;
+.aboutme-title{
+    margin: 20px 0 15px;
 }
 
-.introduce p{
+.aboutme-desc{
     margin-bottom: 20px;
 }
 
@@ -148,25 +148,14 @@ ul,ol,li{
     align-items: center;
 }
 
-.html-img{
-    display: block;
-    width: 100px;
-    height: 100px;
-}
-
-.css-img{
-    display: block;
-    width: 100px;
-    height: 100px;
-}
-
-.js-img{
+.skills-icon{
     display: block;
     width: 100px;
     height: 100px;
 }
 
 .skills-desc{
+    display: block;
     margin: 10px 0 20px;
 }
 
@@ -175,6 +164,13 @@ ul,ol,li{
     /* nav */
     .nav{
         background-color: #f4d6cc;
+    }
+
+    /* navbar 고정 */
+    .top-nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 
     .top-nav-item{
@@ -258,4 +254,18 @@ ul,ol,li{
     } 
 
     /* about-me */
+    .aboutme-title{
+        font-size: 40px;
+    }
+
+    .aboutme-desc{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .skills-icon{
+        width: 150px;
+        height: 150px;
+    }
+   
 }
