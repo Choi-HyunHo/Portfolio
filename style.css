@@ -129,6 +129,47 @@ ul,ol,li{
     margin: 20px 0;
 }
 
+/* about-me */
+.about-me{
+    text-align: center;
+}
+
+.introduce h1{
+    margin: 20px 0;
+}
+
+.introduce p{
+    margin-bottom: 20px;
+}
+
+.skills-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.html-img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.css-img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.js-img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.skills-desc{
+    margin: 10px 0 20px;
+}
+
 /* 768px 이상 (Desktop) */
 @media screen and (min-width: 768px) {
     /* nav */
@@ -215,4 +256,6 @@ ul,ol,li{
     .blog:hover{
         box-shadow: 0 10px 16px rgba(85, 198, 5, 0.85);
     } 
+
+    /* about-me */
 }
