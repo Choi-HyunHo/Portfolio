@@ -159,6 +159,38 @@ ul,ol,li{
     margin: 10px 0 20px;
 }
 
+/* My skills */
+.skills{
+    background-color: antiquewhite;
+}
+
+.skills-title{
+    text-align: center;
+}
+
+.skills-name{
+    text-align: left;
+}
+
+.progress-bar{
+    position: relative;
+    width: 200px;
+    height: 12px;
+    border-radius: 100px;
+    background-color: white;
+    overflow: hidden; /* progress-bar를 넘어가는 요소를 제외 */
+}
+
+.progress-bar-gauge{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 12px;
+    border-radius: 30px;
+    background-color: #8492a6;
+}
+
 /* 768px 이상 (Desktop) */
 @media screen and (min-width: 768px) {
     /* nav */
