@@ -377,6 +377,7 @@ ul,ol,li{
 
     .progress-bar{
         width: 750px;
+        transition: box-shadow 500ms ease-in-out;
     }
 
     .progress-bar-gauge1{
@@ -384,7 +385,7 @@ ul,ol,li{
         animation-name: levelup1;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: inherit;
+        animation-iteration-count: 2;
     }
 
     .progress-bar-gauge2{
@@ -392,7 +393,7 @@ ul,ol,li{
         animation-name: levelup2;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: inherit;
+        animation-iteration-count: 2;
     }
 
     .progress-bar-gauge3{
@@ -400,7 +401,7 @@ ul,ol,li{
         animation-name: levelup3;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: inherit;
+        animation-iteration-count: 2;
     }
 
     .progress-bar-gauge4{
@@ -408,7 +409,7 @@ ul,ol,li{
         animation-name: levelup4;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: inherit;
+        animation-iteration-count: 2;
     }
 
     .progress-bar-gauge5{
@@ -416,7 +417,7 @@ ul,ol,li{
         animation-name: levelup5;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: inherit;
+        animation-iteration-count: 2;
     }
 
     .progress-bar-gauge6{
@@ -424,7 +425,7 @@ ul,ol,li{
         animation-name: levelup6;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: inherit;
+        animation-iteration-count: 2;
     }
    
     @keyframes levelup1{
@@ -515,5 +516,17 @@ ul,ol,li{
           width: 200px;
           opacity: 0;
         }
+    }
+
+    .progress-bar:hover{
+        box-shadow: 0 10px 16px rgba(3, 64, 149, 0.85);
+    }
+
+}
+
+/* custom grid system - Fix container width */
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
     }
 }
