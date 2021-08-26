@@ -381,26 +381,139 @@ ul,ol,li{
 
     .progress-bar-gauge1{
         width: 650px;
+        animation-name: levelup1;
+        animation-duration: 3000ms;
+        animation-timing-function: ease-out;
+        animation-iteration-count: inherit;
     }
 
     .progress-bar-gauge2{
         width: 600px;
+        animation-name: levelup2;
+        animation-duration: 3000ms;
+        animation-timing-function: ease-out;
+        animation-iteration-count: inherit;
     }
 
     .progress-bar-gauge3{
         width: 250px;
+        animation-name: levelup3;
+        animation-duration: 3000ms;
+        animation-timing-function: ease-out;
+        animation-iteration-count: inherit;
     }
 
     .progress-bar-gauge4{
         width: 400px;
+        animation-name: levelup4;
+        animation-duration: 3000ms;
+        animation-timing-function: ease-out;
+        animation-iteration-count: inherit;
     }
 
     .progress-bar-gauge5{
         width: 50px;
+        animation-name: levelup5;
+        animation-duration: 3000ms;
+        animation-timing-function: ease-out;
+        animation-iteration-count: inherit;
     }
 
     .progress-bar-gauge6{
         width: 200px;
+        animation-name: levelup6;
+        animation-duration: 3000ms;
+        animation-timing-function: ease-out;
+        animation-iteration-count: inherit;
     }
    
+    @keyframes levelup1{
+        0%{
+          width: 0px;
+          opacity: 1;
+        }
+        90%{
+          width: 640px;
+          opacity: 1;
+        }
+        100%{
+          width: 650px;
+          opacity: 0;
+        }
+    }
+
+    @keyframes levelup2{
+        0%{
+          width: 0px;
+          opacity: 1;
+        }
+        90%{
+          width: 590px;
+          opacity: 1;
+        }
+        100%{
+          width: 600px;
+          opacity: 0;
+        }
+    }
+
+    @keyframes levelup3{
+        0%{
+          width: 0px;
+          opacity: 1;
+        }
+        90%{
+          width: 240px;
+          opacity: 1;
+        }
+        100%{
+          width: 250px;
+          opacity: 0;
+        }
+    }
+
+    @keyframes levelup4{
+        0%{
+          width: 0px;
+          opacity: 1;
+        }
+        90%{
+          width: 390px;
+          opacity: 1;
+        }
+        100%{
+          width: 400px;
+          opacity: 0;
+        }
+    }
+
+    @keyframes levelup5{
+        0%{
+          width: 0px;
+          opacity: 1;
+        }
+        90%{
+          width: 40px;
+          opacity: 1;
+        }
+        100%{
+          width: 50px;
+          opacity: 0;
+        }
+    }
+
+    @keyframes levelup6{
+        0%{
+          width: 0px;
+          opacity: 1;
+        }
+        90%{
+          width: 190px;
+          opacity: 1;
+        }
+        100%{
+          width: 200px;
+          opacity: 0;
+        }
+    }
 }
