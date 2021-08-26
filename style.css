@@ -244,6 +244,19 @@ ul,ol,li{
     background-color: #8492a6;
 }
 
+.web{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.web-img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
 /* 768px 이상 (Desktop) */
 @media screen and (min-width: 768px) {
     /* nav */
@@ -363,15 +376,15 @@ ul,ol,li{
     }
 
     .progress-bar{
-        width: 500px;
+        width: 750px;
     }
 
     .progress-bar-gauge1{
-        width: 450px;
+        width: 650px;
     }
 
     .progress-bar-gauge2{
-        width: 400px;
+        width: 600px;
     }
 
     .progress-bar-gauge3{
