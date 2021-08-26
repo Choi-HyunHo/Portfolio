@@ -385,7 +385,7 @@ ul,ol,li{
         animation-name: levelup1;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: 2;
+        animation-iteration-count: 3;
     }
 
     .progress-bar-gauge2{
@@ -393,7 +393,7 @@ ul,ol,li{
         animation-name: levelup2;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: 2;
+        animation-iteration-count: 3;
     }
 
     .progress-bar-gauge3{
@@ -401,7 +401,7 @@ ul,ol,li{
         animation-name: levelup3;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: 2;
+        animation-iteration-count: 3;
     }
 
     .progress-bar-gauge4{
@@ -409,7 +409,7 @@ ul,ol,li{
         animation-name: levelup4;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: 2;
+        animation-iteration-count: 3;
     }
 
     .progress-bar-gauge5{
@@ -417,7 +417,7 @@ ul,ol,li{
         animation-name: levelup5;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: 2;
+        animation-iteration-count: 3;
     }
 
     .progress-bar-gauge6{
@@ -425,7 +425,7 @@ ul,ol,li{
         animation-name: levelup6;
         animation-duration: 3000ms;
         animation-timing-function: ease-out;
-        animation-iteration-count: 2;
+        animation-iteration-count: 3;
     }
    
     @keyframes levelup1{
