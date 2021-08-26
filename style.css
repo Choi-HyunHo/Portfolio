@@ -162,10 +162,12 @@ ul,ol,li{
 /* My skills */
 .skills{
     background-color: antiquewhite;
+    padding-bottom: 20px;
 }
 
 .skills-title{
     text-align: center;
+    margin: 20px 0 15px;
 }
 
 .skills-name{
@@ -174,18 +176,59 @@ ul,ol,li{
 
 .progress-bar{
     position: relative;
-    width: 200px;
+    width: 290px;
     height: 12px;
     border-radius: 100px;
     background-color: white;
     overflow: hidden; /* progress-bar를 넘어가는 요소를 제외 */
+    margin-bottom: 20px;
 }
 
-.progress-bar-gauge{
+.progress-bar-gauge1{
     position: absolute;
     top: 0;
     left: 0;
-    width: 180px;
+    width: 250px;
+    height: 12px;
+    border-radius: 30px;
+    background-color: #8492a6;
+}
+
+.progress-bar-gauge2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 12px;
+    border-radius: 30px;
+    background-color: #8492a6;
+}
+
+.progress-bar-gauge3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 12px;
+    border-radius: 30px;
+    background-color: #8492a6;
+}
+
+.progress-bar-gauge4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 12px;
+    border-radius: 30px;
+    background-color: #8492a6;
+}
+
+.progress-bar-gauge5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
     height: 12px;
     border-radius: 30px;
     background-color: #8492a6;
