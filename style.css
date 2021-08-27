@@ -264,11 +264,35 @@ ul,ol,li{
 }
 
 /* My Work */
+.my-work{
+    background-color: #f4d6cc;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.my-work-title{
+    display: block;
+    margin: 20px 0 10px;
+}
+
+.my-work-desc{
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+.project-title{
+    display: block;
+    margin-bottom: 20px;
+}
+
 .project-img{
     display: block;
     width: 250px;
     height: 300px;
+    margin: 0 auto;
 }
+
 /* 768px 이상 (Desktop) */
 @media screen and (min-width: 768px) {
     /* nav */
