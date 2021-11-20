@@ -459,15 +459,8 @@ ul,ol,li{
         animation-iteration-count: 3;
     }
 
-    .progress-bar-gauge5{
-        width: 50px;
-        animation-name: levelup5;
-        animation-duration: 3000ms;
-        animation-timing-function: ease-out;
-        animation-iteration-count: 3;
-    }
 
-    .progress-bar-gauge6{
+    .progress-bar-gauge5{
         width: 200px;
         animation-name: levelup6;
         animation-duration: 3000ms;
@@ -535,22 +528,8 @@ ul,ol,li{
         }
     }
 
-    @keyframes levelup5{
-        0%{
-          width: 0px;
-          opacity: 1;
-        }
-        90%{
-          width: 40px;
-          opacity: 1;
-        }
-        100%{
-          width: 50px;
-          opacity: 0;
-        }
-    }
 
-    @keyframes levelup6{
+    @keyframes levelup5{
         0%{
           width: 0px;
           opacity: 1;
