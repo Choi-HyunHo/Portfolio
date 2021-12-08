@@ -1,230 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./grid.min.css">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header>
-        <nav class="nav">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <ul class="top-nav">
-                            <li class="top-nav-item"><a href="#">HYUNHO</a></li>
-                            <div class="right">
-                                <li class="top-nav-item home"><a href="#">Home</a></li>
-                                <li class="top-nav-item"><a href="#">About me</a></li>
-                                <li class="top-nav-item"><a href="#">Skills</a></li>
-                                <li class="top-nav-item"><a href="#">My work</a></li>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <section class="profile">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="profile-img">
-                            <img src="./assets/me.jpg" alt="me" class="me"/>
-                        </div>
-                        <h1>
-                            Hello,<br> My name is HyunHo
-                        </h1>
-                        <p>
-                            I'm preparing a front-end developer.
-                        </p>
-                        <a href="https://github.com/Choi-HyunHo" target="_blank">
-                            <button type="button" class="profile-button">
-                                CONTACT ME
-                            </button>
-                        </a>
-                        <div class="icon">
-                            <div>
-                                <a href="https://www.facebook.com/profile.php?id=100005023832419" target="_blank">
-                                    <img src="./assets/facebook.png" alt="facebook" class="facebook"/></a>
-                            </div>
-                            <div>
-                                <a href="https://www.instagram.com/hoho_0815/" target="_blank">
-                                    <img src="./assets/instagram.png" alt="instagram" class="instagram"></a>
-                            </div>
-                            <div>
-                                <a href="https://blog.naver.com/x7788" target="_blank">
-                                    <img src="./assets/blogging.png" alt="blog" class="blog"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-        <section class="about-me">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <h1 class="aboutme-title">
-                      About me
-                    </h1>
-                    <p class="aboutme-desc">
-                        I graduated from the Department of Information and Communication Software.  
-                        I studied many programming languages, and I was interested in web page design and UX and UI. 
-                        Therefore, I am studying the following skills to become a front-end developer.
-                    </p>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>최현호 | 포트폴리오</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid.min.css" />
+    <script defer src="style.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9175f8db53.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav id="nav">
+            <h1>CHOI HYUNHO</h1>
+            <div class="mNav">
+              <div class="icon-wrap">
+                <i class="fas fa-bars"></i>
               </div>
-                <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="skills-img">
-                        <img src="./assets/html5.svg" alt="html" class="skills-icon">
-                    </div>
-                        <strong class="skills-desc">
-                        Semantic Markup
-                        </strong>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="skills-img">
-                            <img src="./assets/css3.svg" alt="css" class="skills-icon">
-                        </div>
-                        <strong class="skills-desc">
-                            CSS Design
-                        </strong>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="skills-img">
-                            <img src="./assets/javascript.svg" alt="js" class="skills-icon">
-                        </div>
-                        <strong class="skills-desc">
-                            continue
-                        </strong>
-                      </div>
-                    </div>
-                </div>
-          </section>
-    
-          <section class="skills">
-              <div class="container">
-                  <div class="row justify-content-center">
-                      <div class="col-12 col-md-8">
-                        <h1 class="skills-title">
-                            My Skills
-                        </h1>
-                        <strong class="skills-name">
-                            HTML
-                        </strong>
-                        <div class="skills-list">
-                            <div class="progress-bar" aria-hidden="true">
-                                <span class="progress-bar-gauge1"></span>
-                            </div> 
-                        </div>
-                      </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-12 col-md-8">
-                      <strong class="skills-name">
-                          CSS
-                      </strong>
-                      <div class="skills-list">
-                        <div class="progress-bar" aria-hidden="true">
-                            <span class="progress-bar-gauge2"></span>
-                        </div>
-                      </div>    
-                    </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-12 col-md-8">
-                      <strong class="skills-name">
-                          JavaScript
-                      </strong>
-                      <div class="skills-list">
-                        <div class="progress-bar" aria-hidden="true">
-                            <span class="progress-bar-gauge3"></span>
-                        </div> 
-                      </div>   
-                    </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-12 col-md-8">
-                      <strong class="skills-name">
-                          Bootstrap
-                      </strong>
-                      <div class="skills-list">
-                        <div class="progress-bar" aria-hidden="true">
-                            <span class="progress-bar-gauge4"></span>
-                        </div>
-                      </div>    
-                    </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-12 col-md-8">
-                      <strong class="skills-name">
-                          Figma
-                      </strong>
-                      <div class="skills-list">
-                        <div class="progress-bar" aria-hidden="true">
-                            <span class="progress-bar-gauge5"></span>
-                        </div> 
-                      </div>   
-                    </div>
-                  </div>     
-              </div>
-          </section>
-    
-          <section class="my-work"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="my-work-title">
-                            My Work
-                        </h1>
-                        <strong class="my-work-desc">
-                            Projects
-                        </strong>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                            <a href="https://github.com/Choi-HyunHo/Twitter-Markup" target="_blank" >
-                                <img src="./assets/twitter.jpg" class="project-img">
-                                <strong class="project-title">Twitter-Markup</strong>
-                            </a>
-                    </div>
-                    <div class="col-12 col-md-4">
-                            <a href="https://github.com/Choi-HyunHo/CSS_Final" target="_blank">
-                                <img src="./assets/CSS-Final.JPG" class="project-img">
-                                <strong class="project-title">CSS_Final</strong>
-                            </a>
-                    </div>
-                    <div class="col-12 col-md-4">
-                            <a href="https://github.com/Choi-HyunHo/My_Feed" target="_blank">
-                                <img src="./assets/My-Feed.JPG" class="project-img">
-                                <strong class="project-title">My-Feed</strong>
-                            </a>
-                    </div>    
-                </div>
             </div>
-          </section>
-    </main>
 
-    <footer class="review">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <strong class="review-desc">
-                        Thank you for reviewing it. &#128512;
-                    </strong>
-                </div>
-            </div>
+            <ul class="menu">
+              <li><a href="#section1">HOME</a></li>
+              <li><a href="#section2">PROFILE</a></li>
+              <li><a href="#section3">SKILLS</a></li>
+              <li><a href="#section4">menu4</a></li>
+              <li><a href="#section5">menu5</a></li>
+              <li><a href="#section6">menu6</a></li>
+            </ul>
+          </nav>
         </div>
-    </footer>
-</body>
+      </div>
+    </div>
+
+    <main id="main">
+      <section id="section1">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="title">
+                <h1>WEB PUBLISHER</h1>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="subtitle">
+                <h2>By. Choi Hyunho</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="introduce">
+                <h1>Profile</h1>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="img">
+                <img src="/my.jpg" alt="me" />
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="line-box">
+                <div class="line"></div>
+                <span class="line-title">education</span>
+                <span class="line-date">2016.3 ~ 2022.2 </span>
+                <span class="line-desc">한라대학교</span>
+                <div class="info">
+                  <span class="line-info"
+                    >- 전공 : 정보통신소프트웨어학과
+                  </span>
+                  <span class="line-info-2">- 복수전공 : Social Media </span>
+                </div>
+              </div>
+              <div class="line-box">
+                <div class="line"></div>
+                <span class="line-title">License</span>
+                <span class="line-date__2">2021.8 </span>
+                <span class="line-desc">정보처리기사</span>
+              </div>
+              <div class="line-box-2">
+                <span class="line-date__2 line-space">2019.8 </span>
+                <span class="line-desc line-space__2">워드프로세서</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section3"></section>
+      <section id="section4"></section>
+      <section id="section5"></section>
+      <section id="section6"></section>
+    </main>
+  </body>
 </html>

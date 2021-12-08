@@ -1,586 +1,273 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Kaisei Opti', serif;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-/* Reset CSS */
-a{
-    color: inherit; /* 부모의 color를 상속 받는다 */
-    text-decoration: none;
+button,
+input,
+textarea {
+  font-size: 16px;
 }
 
-button,input,textarea{
-    font-family: 'Kaisei Opti', serif;
-    font-size: 16px;
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  outline: none;
+  box-shadow: none;
 }
 
-button:focus,button:active,
-input:focus,input:active,
-textarea:focus,textarea:active{
-    outline: none;
-    box-shadow: none;
-}
-
-ul,ol,li{
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.a{
-    font-size: 18px;
-    line-height: 20px;
-    color: #8492a6;
-    text-decoration: none;
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 /* nav */
-.right{
-   display: none;
+#nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid bisque;
+  z-index: 1;
 }
 
-.nav{
-    background-color: #ecb6f6;
-    opacity: 0.7;
+#nav h1 {
+  float: left;
+  color: black;
+  font-size: 40px;
+  padding: 5px 5px 5px 15px;
 }
 
-.top-nav-item{
-    font-size: 20px;
+#nav .menu {
+  float: right;
+  padding-right: 10px;
 }
 
-/* profile */
-.profile{
-    background-image: url(./assets/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 70%;
-    height: 100vh;
-    text-align: center;
+#nav .menu li {
+  display: inline;
 }
 
-.profile-img{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+#nav .menu li a {
+  display: inline-block;
+  padding: 20px 15px;
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
-.me{
+#nav .menu li.active a {
+  color: lightcoral;
+}
+
+#nav .mNav {
+  display: none;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  width: 65px;
+  height: 45px;
+  cursor: pointer;
+}
+
+/* icon-menu */
+.icon-wrap {
+  padding-left: 10px;
+}
+
+.icon-wrap .fa-bars,
+.icon-wrap .fa-bars:before,
+.icon-wrap .fa-bars:after {
+  width: 45px;
+  height: 4px;
+  background: black;
+}
+
+.icon-wrap .fa-bars {
+  position: relative;
+  margin-top: 10px;
+}
+
+.icon-wrap .fa-bars:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+
+.icon-wrap .fa-bars:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+/* contents */
+#main {
+  margin: 100px 0 0 0;
+}
+
+/* section */
+#section1 {
+  height: 100vh;
+}
+
+#section1 .title {
+  margin-top: 70px;
+  font-size: 80px;
+}
+
+#section1 .subtitle {
+  margin-top: 500px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#section2 {
+  height: 100vh;
+  background: beige;
+}
+
+#section2 .introduce {
+  margin-top: 250px;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 0 10px;
+  background-color: #ffee75;
+}
+
+#section2 .img img {
+  width: 200px;
+  height: 250px;
+  margin: 60px 0 0 30px;
+}
+
+#section2 .line-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+#section2 .line {
+  width: 5px;
+  height: 30px;
+  background-color: #ff8930;
+  margin-top: 60px;
+}
+
+#section2 .line-title {
+  text-transform: uppercase;
+  margin: 60px 0 0 20px;
+  font-size: 20px;
+}
+
+#section2 .line-date {
+  margin: 63px 0 0 60px;
+  font-size: 15px;
+}
+
+#section2 .line-date__2 {
+  margin: 63px 65px 0 95px;
+  font-size: 15px;
+}
+
+#section2 .info {
+  display: flex;
+  flex-direction: column;
+}
+
+#section2 .line-desc {
+  margin: 63px 0 0 60px;
+  font-size: 15px;
+}
+
+#section2 .line-info {
+  margin-top: 100px;
+  font-size: 13px;
+}
+
+#section2 .line-info-2 {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#section2 .license-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#section2 .line-space {
+  margin-left: 194px;
+}
+
+#section2 .line-space__2 {
+  margin-left: 55px;
+}
+#section3 {
+}
+#section4 {
+}
+#section5 {
+}
+#section6 {
+}
+
+/* 반응형 */
+@media screen and (max-width: 800px) {
+  #nav .menu {
+    display: none;
+  }
+
+  #nav .mNav {
     display: block;
-    width: 250px;
-    height: 250px;
-    border-radius: 20px;
+  }
+
+  #nav h1 {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  #nav .menu {
+    float: none;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  #nav .menu li {
+    width: 100%;
+    display: inline-block;
+  }
+
+  #nav .menu li.active {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /* section1 */
+  #section1 .title {
     margin-top: 30px;
-    border: palevioletred solid 2px;
-}
-
-.profile h1{
-    margin: 20px 0;
-}
-
-.profile p{
-    margin-bottom: 20px;
-}
-
-.profile-button{
-    position: relative;
-    padding: 16px 30px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.25;
-    text-align: center;
-    color: #151B26;
-    cursor: pointer;
-    opacity: 0.7;
-    border: none;
-    background-color: #e7e7ed;
-}
-
-.facebook{
-    display: block;
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    margin-right: 40px;
-}
-
-.instagram{
-    display: block;
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    margin-right: 40px;
-}
-
-.blog{
-    display: block;
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-}
-
-.icon{
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-/* about-me */
-.about-me{
-    text-align: center;
-}
-
-.aboutme-title{
-    margin: 20px 0 15px;
-}
-
-.aboutme-desc{
-    margin-bottom: 20px;
-}
-
-.skills-img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.skills-icon{
-    display: block;
-    width: 100px;
-    height: 100px;
-}
-
-.skills-desc{
-    display: block;
-    margin: 10px 0 20px;
-}
-
-/* My skills */
-.skills{
-    background-color: antiquewhite;
-    padding-bottom: 20px;
-}
-
-.skills-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills-title{
-    text-align: center;
-    margin: 20px 0 15px;
-}
-
-.skills-name{
-    text-align: left;
-}
-
-.progress-bar{
-    position: relative;
-    width: 290px;
-    height: 12px;
-    border-radius: 100px;
-    background-color: white;
-    overflow: hidden; /* progress-bar를 넘어가는 요소를 제외 */
-    margin-bottom: 20px;
-}
-
-.progress-bar-gauge1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 12px;
-    border-radius: 30px;
-    background-color: #8492a6;
-}
-
-.progress-bar-gauge2{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 12px;
-    border-radius: 30px;
-    background-color: #8492a6;
-}
-
-.progress-bar-gauge3{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 150px;
-    height: 12px;
-    border-radius: 30px;
-    background-color: #8492a6;
-}
-
-.progress-bar-gauge4{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 12px;
-    border-radius: 30px;
-    background-color: #8492a6;
-}
-
-.progress-bar-gauge5{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 12px;
-    border-radius: 30px;
-    background-color: #8492a6;
-}
-
-.progress-bar-gauge6{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 12px;
-    border-radius: 30px;
-    background-color: #8492a6;
-}
-
-.web{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.web-img{
-    display: block;
-    width: 200px;
-    height: 200px;
-}
-
-/* My Work */
-.my-work{
-    background-color: #f4d6cc;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.my-work-title{
-    display: block;
-    margin: 20px 0 10px;
-}
-
-.my-work-desc{
-    display: block;
-    margin-bottom: 30px;
-}
-
-
-.project-title{
-    display: block;
-    margin-bottom: 20px;
-}
-
-.project-img{
-    display: block;
-    width: 250px;
-    height: 300px;
-    margin: 0 auto;
-}
-
-/* review */
-.review{
-    text-align: center;
-    margin: 20px 0;
-}
-
-/* 768px 이상 (Desktop) */
-@media screen and (min-width: 768px) {
-    /* nav */
-    .nav{
-        background-color: #f4d6cc;
-    }
-
-    /* navbar 고정 */
-    .top-nav{
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-
-    .top-nav-item{
-        float: left;
-        margin-right: 35px;
-        font-size: 25px;
-    }
-
-    .top-nav::after{
-        content: "";
-        display: block;
-        clear: left;
-    }
-
-    .top-nav-item.home{
-        background-color: hotpink;
-        opacity: 0.5;
-    }
-
-    .right{
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    /* profile */
-    .profile{
-        height: auto;
-    }
-
-    .profile h1{
-        font-size: 50px;
-    }
-
-    .profile p{
-        font-size: 35px;
-    }
-
-    .profile-button{
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    
-    .profile-button::after{
-        content: '';
-        position: absolute; /* block으로 변환 */
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background-color: #0066FF;
-        transition: width 250ms ease-in, background-color 250ms ease-in;
-    }
-    
-    .profile-button:hover::after{
-        width: 100%;
-        background-color: hotpink;
-    }
-
-    .facebook{
-        transition: box-shadow 500ms ease-in-out;
-    }
-    
-    .instagram{
-        transition: box-shadow 500ms ease-in-out;
-    }
-    
-    .blog{
-        transition: box-shadow 500ms ease-in-out;
-    }
-    
-    .facebook:hover{
-        box-shadow: 0 10px 16px rgba(3, 64, 149, 0.85);
-    } 
-    
-    .instagram:hover{
-        box-shadow: 0 10px 16px rgba(240, 65, 65, 0.85);
-    } 
-    
-    .blog:hover{
-        box-shadow: 0 10px 16px rgba(85, 198, 5, 0.85);
-    } 
-
-    /* about-me */
-    .aboutme-title{
-        font-size: 40px;
-    }
-
-    .aboutme-desc{
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
-
-    .skills-icon{
-        width: 150px;
-        height: 150px;
-        transition: box-shadow 500ms ease-in;
-    }
-
-    .skills-icon:hover{
-        box-shadow: 0 10px 16px rgba(70, 66, 66, 0.85);
-    }
-
-    /* My Skills */
-    .skills-title{
-        font-size: 40px;
-    }
-
-    .skills-name{
-        font-size: 20px;
-    }
-
-    .progress-bar{
-        width: 750px;
-        transition: box-shadow 500ms ease-in-out;
-    }
-
-    .progress-bar-gauge1{
-        width: 650px;
-        animation-name: levelup1;
-        animation-duration: 3000ms;
-        animation-timing-function: ease-out;
-        animation-iteration-count: 3;
-    }
-
-    .progress-bar-gauge2{
-        width: 600px;
-        animation-name: levelup2;
-        animation-duration: 3000ms;
-        animation-timing-function: ease-out;
-        animation-iteration-count: 3;
-    }
-
-    .progress-bar-gauge3{
-        width: 250px;
-        animation-name: levelup3;
-        animation-duration: 3000ms;
-        animation-timing-function: ease-out;
-        animation-iteration-count: 3;
-    }
-
-    .progress-bar-gauge4{
-        width: 400px;
-        animation-name: levelup4;
-        animation-duration: 3000ms;
-        animation-timing-function: ease-out;
-        animation-iteration-count: 3;
-    }
-
-
-    .progress-bar-gauge5{
-        width: 200px;
-        animation-name: levelup6;
-        animation-duration: 3000ms;
-        animation-timing-function: ease-out;
-        animation-iteration-count: 3;
-    }
-   
-    @keyframes levelup1{
-        0%{
-          width: 0px;
-          opacity: 1;
-        }
-        90%{
-          width: 640px;
-          opacity: 1;
-        }
-        100%{
-          width: 650px;
-          opacity: 0;
-        }
-    }
-
-    @keyframes levelup2{
-        0%{
-          width: 0px;
-          opacity: 1;
-        }
-        90%{
-          width: 590px;
-          opacity: 1;
-        }
-        100%{
-          width: 600px;
-          opacity: 0;
-        }
-    }
-
-    @keyframes levelup3{
-        0%{
-          width: 0px;
-          opacity: 1;
-        }
-        90%{
-          width: 240px;
-          opacity: 1;
-        }
-        100%{
-          width: 250px;
-          opacity: 0;
-        }
-    }
-
-    @keyframes levelup4{
-        0%{
-          width: 0px;
-          opacity: 1;
-        }
-        90%{
-          width: 390px;
-          opacity: 1;
-        }
-        100%{
-          width: 400px;
-          opacity: 0;
-        }
-    }
-
-
-    @keyframes levelup5{
-        0%{
-          width: 0px;
-          opacity: 1;
-        }
-        90%{
-          width: 190px;
-          opacity: 1;
-        }
-        100%{
-          width: 200px;
-          opacity: 0;
-        }
-    }
-
-    .progress-bar:hover{
-        box-shadow: 0 10px 16px rgba(3, 64, 149, 0.85);
-    }
-
-    /* My Work */
-    .my-work-title{
-        font-size: 40px;
-    }
-
-    .my-work-desc{
-        font-size: 25px;
-    }
-
-    .project-img{
-        width: 300px;
-        height: 400px;
-        transition: box-shadow 500ms ease-in;
-    }
-
-    .project-title{
-        font-size: 20px;
-    }
-
-    .project-img:hover{
-        box-shadow: 0 10px 16px rgba(242, 58, 58, 0.85);
-    }
-
-    /* review */
-    .review-desc{
-        font-size: 25px;
-    }
-
-}
-
-/* custom grid system - Fix container width */
-@media screen and (min-width: 1200px) {
-    .container{
-        max-width: 1140px;
-    }
+    font-size: 30px;
+  }
+
+  #section1 .subtitle {
+    margin-top: 300px;
+    font-size: 20px;
+  }
+
+  /* section2 */
+  #section2 .introduce {
+    margin-top: 50px;
+  }
 }
