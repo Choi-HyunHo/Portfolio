@@ -1,0 +1,110 @@
+/* nav */
+#nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid bisque;
+  z-index: 1;
+}
+
+#nav h1 {
+  float: left;
+  color: black;
+  font-size: 40px;
+  padding: 5px 5px 5px 15px;
+}
+
+#nav .menu {
+  float: right;
+  padding-right: 10px;
+}
+
+#nav .menu li {
+  display: inline;
+}
+
+#nav .menu li a {
+  display: inline-block;
+  padding: 20px 15px;
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#nav .menu li.active a {
+  color: lightcoral;
+}
+
+#nav .mNav {
+  display: none;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  width: 65px;
+  height: 45px;
+  cursor: pointer;
+}
+
+/* icon-menu */
+.icon-wrap {
+  padding-left: 10px;
+}
+
+.icon-wrap .fa-bars,
+.icon-wrap .fa-bars:before,
+.icon-wrap .fa-bars:after {
+  width: 45px;
+  height: 4px;
+  background: black;
+}
+
+.icon-wrap .fa-bars {
+  position: relative;
+  margin-top: 10px;
+}
+
+.icon-wrap .fa-bars:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+
+.icon-wrap .fa-bars:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  #nav .menu {
+    display: none;
+  }
+
+  #nav .mNav {
+    display: block;
+  }
+
+  #nav h1 {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  #nav .menu {
+    float: none;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  #nav .menu li {
+    width: 100%;
+    display: inline-block;
+  }
+
+  #nav .menu li.active {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}

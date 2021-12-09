@@ -1,0 +1,27 @@
+#section1 {
+  height: 100vh;
+}
+
+#section1 .title {
+  margin-top: 70px;
+  font-size: 80px;
+}
+
+#section1 .subtitle {
+  margin-top: 500px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  /* section1 */
+  #section1 .title {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  #section1 .subtitle {
+    margin-top: 300px;
+    font-size: 20px;
+  }
+}
