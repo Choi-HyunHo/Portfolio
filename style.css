@@ -141,7 +141,7 @@ li {
 }
 
 #section2 .introduce {
-  margin-top: 250px;
+  margin-top: 100px;
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
@@ -156,66 +156,87 @@ li {
   margin: 60px 0 0 30px;
 }
 
-#section2 .line-box {
-  display: flex;
-  align-items: flex-start;
-}
-
-#section2 .line {
-  width: 5px;
-  height: 30px;
-  background-color: #ff8930;
-  margin-top: 60px;
-}
-
-#section2 .line-title {
-  text-transform: uppercase;
-  margin: 60px 0 0 20px;
-  font-size: 20px;
-}
-
-#section2 .line-date {
-  margin: 63px 0 0 60px;
-  font-size: 15px;
-}
-
-#section2 .line-date__2 {
-  margin: 63px 65px 0 95px;
-  font-size: 15px;
-}
-
-#section2 .info {
+#section2 .my-info {
   display: flex;
   flex-direction: column;
+  margin: 60px 0 0 30px;
 }
 
-#section2 .line-desc {
-  margin: 63px 0 0 60px;
-  font-size: 15px;
+#section2 .my-name {
+  margin-bottom: 20px;
 }
 
-#section2 .line-info {
-  margin-top: 100px;
-  font-size: 13px;
+#section2 .education-box {
+  margin-top: 50px;
+  width: 100%;
+  text-transform: uppercase;
+  display: flex;
 }
 
-#section2 .line-info-2 {
-  margin-top: 10px;
-  font-size: 13px;
+#section2 .education-date {
+  margin: 0 50px;
+}
+
+#section2 .edcation-master {
+  margin-left: 100px;
+}
+
+#section2 .award-box {
+  margin-top: 20px;
+  display: flex;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#section2 .award-date {
+  margin-left: 81px;
+  margin-right: 120px;
+}
+
+#section2 .award-master {
+  margin-left: 100px;
 }
 
 #section2 .license-box {
+  margin-top: 20px;
+  width: 100%;
+  text-transform: uppercase;
   display: flex;
-  flex-wrap: wrap;
+}
+#section2 .license-date {
+  margin-left: 79px;
+  margin-right: 115px;
 }
 
-#section2 .line-space {
-  margin-left: 194px;
+#section2 .license-date__2 {
+  margin-left: 163px;
+  margin-right: 115px;
 }
 
-#section2 .line-space__2 {
-  margin-left: 55px;
+#section2 .placement-box {
+  text-transform: uppercase;
+  display: flex;
+  margin-top: 20px;
 }
+
+#section2 .placement-date {
+  margin-left: 42px;
+  margin-right: 40px;
+}
+
+#section2 .img-text {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#section2 .img .fa-phone-alt {
+  margin-bottom: 10px;
+}
+
+#section2 .fas,
+.far {
+  margin-right: 10px;
+}
+
 #section3 {
 }
 #section4 {
@@ -267,7 +288,91 @@ li {
   }
 
   /* section2 */
+  #section2 {
+    height: 190vh;
+  }
   #section2 .introduce {
     margin-top: 50px;
+  }
+
+  #section2 .img img {
+    width: 200px;
+    height: 250px;
+    margin: 30px 0 5px 11vh;
+  }
+
+  #section2 .line {
+    width: 5px;
+    height: 30px;
+    background-color: #ff8930;
+    margin-top: 300px;
+  }
+
+  #section2 .img-text {
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  #section2 .my-info {
+    margin-top: 0;
+    margin-left: 11vh;
+  }
+
+  #section2 .my-name {
+    margin-bottom: 20px;
+  }
+
+  #section2 .education-box,
+  .license-box,
+  .placement-box {
+    flex-direction: column;
+  }
+
+  #section2 .education-date {
+    margin: 0 0;
+  }
+
+  #section2 .license-date {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #section2 .license-date__2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #section2 .placement-date {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #section2 .education-box {
+    flex-direction: column;
+  }
+
+  #section2 .education-date {
+    margin: 0 0px;
+  }
+
+  #section2 .edcation-master {
+    margin-left: 0x;
+  }
+
+  #section2 .award-box {
+    flex-direction: column;
+  }
+
+  #section2 .award-date {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #section2 .award-master {
+    margin-left: 0px;
+  }
+
+  #section2 .contact {
+    margin: 20px 0 0 50px;
   }
 }
