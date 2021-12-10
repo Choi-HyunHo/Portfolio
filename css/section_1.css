@@ -13,7 +13,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   /* section1 */
   #section1 .title {
     margin-top: 30px;

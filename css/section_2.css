@@ -100,10 +100,21 @@
   margin-right: 10px;
 }
 
-@media screen and (max-width: 800px) {
+#section2 .contact-me {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#section2 .contact-me__img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
   /* section2 */
   #section2 {
-    height: 190vh;
+    height: 285vh;
   }
   #section2 .introduce {
     margin-top: 50px;
@@ -186,7 +197,27 @@
     margin-left: 0px;
   }
 
-  #section2 .contact {
-    margin: 20px 0 0 50px;
+  #section2 .contact-me {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  #section2 .contact-me__img {
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #section2 .contact-me__img a {
+    margin-bottom: 20px;
+  }
+
+  #section2 .contact-me__img strong {
+    margin-bottom: 30px;
+  }
+
+  #section2 .fa-long-arrow-alt-left {
+    display: none;
   }
 }
