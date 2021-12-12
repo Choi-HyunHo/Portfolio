@@ -75,6 +75,19 @@ h1:after {
   width: 100%;
 }
 
+#section1 .subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  padding-bottom: 360px;
+  color: gray;
+}
+
+#section1 .subtitle h3 {
+  font-size: 22px;
+}
+
 #section1 .md-title {
   display: none;
 }
