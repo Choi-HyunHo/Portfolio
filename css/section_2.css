@@ -4,7 +4,7 @@
 }
 
 #section2 .introduce {
-  margin-top: 100px;
+  margin-top: 120px;
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
@@ -181,7 +181,7 @@
   }
 
   #section2 .edcation-master {
-    margin-left: 0x;
+    margin-left: 0px;
   }
 
   #section2 .award-box {
