@@ -67,6 +67,10 @@
   width: 85%;
 }
 
+#section4 .progress-line.scss span {
+  width: 80%;
+}
+
 #section4 .progress-line.js span {
   width: 75%;
 }
@@ -109,10 +113,43 @@
   content: '85%';
 }
 
+#section4 .progress-line.scss span::after {
+  content: '80%';
+}
+
 #section4 .progress-line.js span::after {
   content: '75%';
 }
 
 #section4 .progress-line.jquery span::after {
   content: '80%';
+}
+
+#section4 .skill-info {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#section4 .skill-info span {
+  font-family: 'Gowun Dodum', sans-serif;
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 17px;
+}
+
+#section4 .skill-study {
+  font-family: 'Gowun Dodum', sans-serif;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#section4 .skill-study:first-child,
+.skill-study:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+#section4 .skill-study a:hover {
+  color: #6665ee;
 }
