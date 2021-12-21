@@ -1,6 +1,7 @@
 #section2 {
   height: 100vh;
   background: beige;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 #section2 .introduce {
@@ -51,8 +52,8 @@
 }
 
 #section2 .award-date {
-  margin-left: 81px;
-  margin-right: 120px;
+  margin-left: 86px;
+  margin-right: 117px;
 }
 
 #section2 .award-master {
@@ -82,8 +83,12 @@
 }
 
 #section2 .placement-date {
-  margin-left: 42px;
+  margin-left: 46px;
   margin-right: 40px;
+}
+
+#section2 .placement-job {
+  margin-left: 74px;
 }
 
 #section2 .img-text {
