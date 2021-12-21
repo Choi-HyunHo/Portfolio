@@ -1,5 +1,6 @@
 /* nav */
 #nav {
+  font-family: 'Spectral', serif;
   position: fixed;
   left: 0;
   top: 0;
@@ -14,7 +15,6 @@
   color: black;
   font-size: 40px;
   padding: 5px 5px 5px 15px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 #nav .menu {

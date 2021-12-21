@@ -1,5 +1,6 @@
 #section4 {
   height: 100vh;
+  background: beige;
 }
 
 #section4 .skills {
@@ -8,9 +9,8 @@
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  font-family: 'Spectral', serif;
   padding: 0 10px;
-  background-color: #ffee75;
 }
 
 #section4 .skills-bar {

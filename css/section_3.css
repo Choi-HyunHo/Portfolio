@@ -8,12 +8,12 @@
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  font-family: 'Spectral', serif;
   padding: 0 10px;
-  background-color: #ffee75;
 }
 
 #section3 .box {
+  font-family: 'Gowun Dodum', sans-serif;
   margin: 50px 10px 30px;
 }
 
@@ -24,6 +24,7 @@
   margin: 0 auto;
   background-color: beige;
   transition: 0.5s;
+  border-radius: 30px;
 }
 
 #section3 .card:hover {
@@ -53,6 +54,7 @@
 }
 
 #section3 .face-2 {
+  border-radius: 30px;
   background-color: #fafaad;
   transition: 0.8s;
 }
@@ -93,5 +95,6 @@
 }
 
 .half_hl {
+  font-family: 'Gowun Dodum', sans-serif;
   background: linear-gradient(to top, #ffe400 50%, transparent 50%);
 }
