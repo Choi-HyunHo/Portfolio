@@ -1,11 +1,11 @@
 #section4 {
-  height: 120vh;
+  height: 110vh;
   background: beige;
 }
 
 #section4 .skills {
   margin-top: 120px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
