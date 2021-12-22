@@ -1,5 +1,5 @@
 #section4 {
-  height: 100vh;
+  height: 120vh;
   background: beige;
 }
 
@@ -152,4 +152,61 @@
 
 #section4 .skill-study a:hover {
   color: #6665ee;
+}
+
+/* skill-icon */
+#section4 .skill-icon {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section4 .skill-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+#section4 .html-img img {
+  filter: invert(36%) sepia(64%) saturate(1818%) hue-rotate(347deg)
+    brightness(92%) contrast(92%);
+}
+
+#section4 .css-img img {
+  filter: invert(31%) sepia(90%) saturate(1072%) hue-rotate(179deg)
+    brightness(93%) contrast(88%);
+}
+
+#section4 .scss-img img {
+  filter: invert(75%) sepia(24%) saturate(4469%) hue-rotate(290deg)
+    brightness(82%) contrast(93%);
+}
+
+#section4 .js-img img {
+  filter: invert(87%) sepia(99%) saturate(7472%) hue-rotate(339deg)
+    brightness(100%) contrast(95%);
+}
+
+#section4 .jq-img img {
+  filter: invert(19%) sepia(100%) saturate(2425%) hue-rotate(189deg)
+    brightness(97%) contrast(94%);
+}
+
+#section4 .skill-text {
+  font-family: 'Gowun Dodum', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#section4 .skill-text strong {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+#section4 .skill-text span {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.7;
 }
