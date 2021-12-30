@@ -88,45 +88,26 @@ h3 {
   opacity: 1;
 }
 
-/* section2 */
-#section2 .container {
-  transition: all 0.8s ease-in-out;
-  opacity: 0;
-}
-
-#section2 div.show {
-  transform: none;
-}
-
-#section2.show div {
-  opacity: 1;
-}
-
-/* section 3 */
-#section3 .container {
-  transition: all 0.8s ease-in-out;
-  opacity: 0;
-}
-
-#section3 div.show {
-  transform: none;
-}
-
-#section3.show div {
-  opacity: 1;
-}
-
 /* section4 */
-#section4 .container {
+#section2,
+#section3,
+#section4,
+#section5 .container {
   transition: all 0.8s ease-in-out;
   opacity: 0;
 }
 
-#section4 div.show {
+#section2,
+#section3,
+#section4,
+#section5 div.show {
   transform: none;
 }
 
-#section4.show div {
+#section2.show,
+#section3.show,
+#section4.show,
+#section5.show div {
   opacity: 1;
 }
 
