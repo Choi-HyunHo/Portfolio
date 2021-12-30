@@ -3,6 +3,7 @@
 @import '/css/section_2.css';
 @import '/css/section_3.css';
 @import '/css/section_4.css';
+@import '/css/section_5.css';
 
 ::-webkit-scrollbar {
   width: 1px;
@@ -246,7 +247,7 @@ h3 {
   font-size: 32px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   #no-mobile {
     display: none;
   }

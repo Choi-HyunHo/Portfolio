@@ -117,6 +117,20 @@
   justify-content: space-evenly;
 }
 
+#section2 .contact-me__img strong {
+  animation: updown 0.9s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    margin-top: 0;
+  }
+
+  100% {
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /* section2 */
   #section2 {
