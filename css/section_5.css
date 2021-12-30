@@ -1,3 +1,5 @@
+@import '/css/modal.css';
+
 #section5 {
   height: 100vh;
 }
@@ -141,6 +143,11 @@
   height: 100%;
   object-fit: cover;
   transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+#section5 .imgbox img:nth-child(2) {
+  transform: rotateY(180deg);
 }
 
 #section5 .btn {
