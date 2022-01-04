@@ -89,7 +89,11 @@ h3 {
 }
 
 /* section4 */
-#section2,
+#section2 .container {
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
 #section3,
 #section4,
 #section5 .container {
@@ -97,14 +101,20 @@ h3 {
   opacity: 0;
 }
 
-#section2,
+#section2 div .show {
+  transform: none;
+}
+
 #section3,
 #section4,
 #section5 div.show {
   transform: none;
 }
 
-#section2.show,
+#section2.show div {
+  opacity: 1;
+}
+
 #section3.show,
 #section4.show,
 #section5.show div {
