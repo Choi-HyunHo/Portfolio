@@ -1,9 +1,9 @@
-@import '/css/nav.css';
-@import '/css/section_1.css';
-@import '/css/section_2.css';
-@import '/css/section_3.css';
-@import '/css/section_4.css';
-@import '/css/section_5.css';
+@import '../css/nav.css';
+@import '../css/section_1.css';
+@import '../css/section_2.css';
+@import '../css/section_3.css';
+@import '../css/section_4.css';
+@import '../css/section_5.css';
 
 ::-webkit-scrollbar {
   width: 1px;
