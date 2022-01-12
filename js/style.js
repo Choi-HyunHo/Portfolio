@@ -56,7 +56,7 @@ $(window).scroll(function () {
     cont.eq(4).addClass('show')
   }
   if (wScroll >= cont.eq(5).offset().top - $(window).height() / 3) {
-    cont.eq(0).addClass('show')
+    cont.eq(5).addClass('show')
   }
 })
 

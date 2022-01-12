@@ -90,7 +90,7 @@ h3 {
   opacity: 1;
 }
 
-/* section4 */
+/* section */
 #section2 .container {
   transition: all 0.5s ease;
   opacity: 0;
@@ -98,7 +98,8 @@ h3 {
 
 #section3,
 #section4,
-#section5 .container {
+#section5,
+#section6 .container {
   transition: all 0.8s ease-in-out;
   opacity: 0;
 }
@@ -109,7 +110,8 @@ h3 {
 
 #section3,
 #section4,
-#section5 div.show {
+#section5,
+#section6 div .show {
   transform: none;
 }
 
@@ -119,7 +121,8 @@ h3 {
 
 #section3.show,
 #section4.show,
-#section5.show div {
+#section5.show,
+#section6.show div {
   opacity: 1;
 }
 
@@ -230,7 +233,7 @@ h3 {
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 700vh;
   width: 100vw;
   background-color: antiquewhite;
   display: flex;
