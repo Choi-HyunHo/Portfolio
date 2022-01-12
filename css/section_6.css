@@ -1,0 +1,62 @@
+#section6 {
+  height: 100vh;
+  background: beige;
+}
+
+#section6 .end {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+#section6 .icon-top,
+.icon-down {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section6 .icon-top {
+  margin: 30px 0 100px 0;
+}
+
+#section6 .icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#section6 .icon-box i {
+  text-align: center;
+}
+
+#section6 .icon-box .icon-title {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 그림 옆 text */
+#section6 .end-box {
+  margin-left: 80px;
+}
+
+#section6 .end-title {
+  margin-top: 30px;
+}
+
+#section6 .end-desc {
+  margin-top: 60px;
+}
+
+/* 저작권 표기 */
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  opacity: 0.7;
+}
