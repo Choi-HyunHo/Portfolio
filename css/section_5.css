@@ -9,7 +9,6 @@
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Spectral', serif;
   padding: 0 10px;
 }
 
@@ -69,7 +68,6 @@
 */
 
 #section5 .card {
-  font-family: 'Gowun Dodum', sans-serif;
   margin-top: 50px;
   position: relative;
   width: 300px;

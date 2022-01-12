@@ -1,7 +1,6 @@
 #section2 {
   height: 100vh;
   background: beige;
-  font-family: 'Gowun Dodum', sans-serif;
 }
 
 #section2 .introduce {
@@ -10,7 +9,6 @@
   text-align: center;
   text-transform: uppercase;
   padding: 0 10px;
-  font-family: 'Spectral', serif;
 }
 
 #section2 .img img {
@@ -96,7 +94,6 @@
 #section2 .img-text {
   margin-top: 20px;
   margin-left: 30px;
-  font-family: 'Spectral', serif;
 }
 #section2 .img .fa-phone-alt {
   margin-bottom: 10px;
@@ -108,7 +105,6 @@
 }
 
 #section2 .contact-me {
-  font-family: 'Spectral', serif;
   text-align: center;
   margin-top: 100px;
 }

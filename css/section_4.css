@@ -9,7 +9,6 @@
   font-size: 25px;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Spectral', serif;
   padding: 0 10px;
 }
 
@@ -131,14 +130,12 @@
 }
 
 #section4 .skill-info span {
-  font-family: 'Gowun Dodum', sans-serif;
   display: inline-block;
   margin-left: 100px;
   font-size: 17px;
 }
 
 #section4 .skill-study {
-  font-family: 'Gowun Dodum', sans-serif;
   margin-left: 100px;
   display: flex;
   flex-direction: column;
@@ -193,7 +190,6 @@
 }
 
 #section4 .skill-text {
-  font-family: 'Gowun Dodum', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
