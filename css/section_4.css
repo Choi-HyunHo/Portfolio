@@ -59,23 +59,23 @@
 
 /* 게이지 위치 조절 */
 #section4 .progress-line.html span {
-  width: 90%;
+  width: 70%;
 }
 
 #section4 .progress-line.css span {
-  width: 85%;
+  width: 70%;
 }
 
 #section4 .progress-line.scss span {
-  width: 80%;
+  width: 70%;
 }
 
 #section4 .progress-line.js span {
-  width: 75%;
+  width: 70%;
 }
 
 #section4 .progress-line.jquery span {
-  width: 80%;
+  width: 70%;
 }
 
 /* % 메시지 상자 */
@@ -105,23 +105,23 @@
 }
 
 #section4 .progress-line.html span::after {
-  content: '90%';
+  content: '?';
 }
 
 #section4 .progress-line.css span::after {
-  content: '85%';
+  content: '?';
 }
 
 #section4 .progress-line.scss span::after {
-  content: '80%';
+  content: '?';
 }
 
 #section4 .progress-line.js span::after {
-  content: '75%';
+  content: '?';
 }
 
 #section4 .progress-line.jquery span::after {
-  content: '80%';
+  content: '?';
 }
 
 #section4 .skill-info {
